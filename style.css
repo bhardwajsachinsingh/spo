@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: black;
+    color: aliceblue;
+}
+
+.box1 {
+    background-color: rgb(25, 24, 24);
+    position: fixed;
+    /* bottom: 1500px; */
+    /* border: 1px solid whitesmoke; */
+    top: 0px;
+    width: 350px;
+    height: 160px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.box2 {
+    background-color: rgb(25, 24, 24);
+    position: fixed;
+    /* border: 1px solid whitesmoke; */
+    width: 350px;
+    height: 500px;
+    margin: 10px;
+    top: 170px;
+    overflow: auto;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.box3 {
+    background-color: rgb(33, 32, 32);
+    position: fixed;
+    /* border: 1px solid whitesmoke; */
+    background: linear-gradient(to top right, #000000, #4b4345);
+    width: 1150px;
+    height: 600px;
+    left: 350px;
+    top: 80px;
+    margin-left: 20px;
+    overflow: auto;
+    /* border-radius: 30px; */
+    cursor: pointer;
+
+
+}
+
+.box4 {
+    position: fixed;
+    top: 25px;
+    left: 350px;
+    width: 1150px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: -10px;
+    background-color: rgb(25, 24, 24);
+    /* border: 1px solid whitesmoke; */
+    text-align: end;
+    /* border-radius: 30px; */
+    cursor: pointer;
+
+}
+
+nav p {
+
+    display: inline;
+    color: aliceblue;
+}
+
+
+.p2 {
+    position: relative;
+    margin-right: 35px;
+    padding: 9px 30px;
+    top: 20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    color: rgb(6, 5, 5);
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.p1 {
+    position: relative;
+    right: 50px;
+    top: 20px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.h21 {
+    margin-left: 15px;
+    padding: 10px;
+
+}
+
+.h22 {
+    position: fixed;
+    margin-left: 15px;
+    padding: 10px;
+
+}
+
+.h31 {
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.h32 {
+    margin-left: 20px;
+    padding: 10px;
+
+}
+
+.div1 {
+    background-color: rgb(49, 48, 48);
+    width: 320px;
+    height: 140px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.div2 {
+    background-color: rgb(49, 48, 48);
+    margin: 10px;
+    padding: 20px;
+    width: 320px;
+    height: 140px;
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.h41 {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    font-size: large;
+    font-weight: 900;
+}
+
+.h51 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.h42 {
+    margin-top: 22px;
+    margin-left: 28px;
+    margin-right: 160px;
+    padding: 6px 5px;
+    border-radius: 17px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+.h43 {
+    margin-top: -5px;
+    font-size: large;
+    font-weight: 900;
+
+}
+
+.h52 {
+    padding-top: 10px;
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.h44 {
+    margin-top: 25px;
+    margin-left: 28px;
+    margin-right: 100px;
+    padding: 6px 10px;
+    border-radius: 17px;
+    background-color: aliceblue;
+    color: black;
+    text-align: center;
+}
+
+.box5 {
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    position: fixed;
+    top: 550px;
+}
+
+footer span {
+    padding: 20px 11px;
+    font-size: small;
+    cursor: pointer
+}
+
+.box6 {
+    background: linear-gradient(to left bottom, rgb(255, 6, 48), rgb(100, 100, 225));
+    position: fixed;
+    /* border: 1px solid whitesmoke; */
+    border-radius: 20px;
+    width: 1510px;
+    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    bottom: 0px;
+
+}
+
+.p3 {
+    padding: 10px 10px 10px 10px;
+    font-size: medium;
+    font-weight: 1000;
+}
+
+.span8 {
+    padding: 10px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.span9 {
+    position: relative;
+    padding: 15px 30px;
+    bottom: 12px;
+    left: 720px;
+    background-color: aliceblue;
+    border-radius: 25px;
+    color: rgb(6, 5, 5);
+    font-size: larger;
+    font-weight: bolder;
+
+
+}
+
+.h23 {
+    /* display: block; */
+    position: relative;
+    margin-top: 45px;
+    padding-left: 20px;
+
+}
+
+.span10 {
+    position: relative;
+    left: 990px;
+    font-size: medium;
+    font-weight: 100;
+
+}
+
+div img {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 85px;
+}
+
+.pimg7a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg8a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg9a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg10a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg11a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg12a {
+    padding-left: 10px;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+.pimg7b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.pimg8b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.pimg9b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.pimg10b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.pimg11b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.pimg12b {
+    padding-top: 2px;
+    padding-left: 10px;
+
+}
+
+.box13 {
+
+    display: flex;
+    width: 100%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.box14 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+
+.box21 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+
+.box28 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+
+.box35 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+
+.box42 {
+    display: flex;
+    width: 1150px;
+    height: 300px;
+}
+
+.h24 {
+    margin-bottom: 1550px;
+    padding-left: 20px;
+
+}
+
+.span11 {
+    position: relative;
+    left: 880px;
+    font-size: medium;
+    font-weight: 100;
+
+}
+
+.h25 {
+    margin-bottom: 1550px;
+    padding-left: 20px;
+
+}
+
+.span12 {
+    position: relative;
+    left: 900px;
+    font-size: medium;
+    font-weight: 100;
+
+}
+
+.h26 {
+    margin-bottom: 1550px;
+    padding-left: 20px;
+
+}
+
+.span13 {
+    position: relative;
+    left: 880px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.h27 {
+    margin-bottom: 1550px;
+    padding-left: 20px;
+
+}
+
+.span14 {
+    position: relative;
+    left: 870px;
+    font-size: medium;
+    font-weight: 100;
+
+}
+
+.h28 {
+    margin-bottom: 1550px;
+    padding-left: 20px;
+}
+
+.span15 {
+    position: relative;
+    left: 860px;
+    font-size: medium;
+    font-weight: 100;
+}
+
+.box7:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box8:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box9:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box10:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box11:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box12:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box15:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box16:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box17:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box18:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box19:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box20:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box22:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box23:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box24:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box25:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box26:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box27:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box29:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box30:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box31:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box32:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box33:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box34:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box36:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box37:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box38:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box39:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box40:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box41:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box43:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box44:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box45:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box46:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box47:hover {
+    background-color: rgb(42, 41, 41);
+}
+
+.box48:hover {
+    background-color: rgb(42, 41, 41);
+}
